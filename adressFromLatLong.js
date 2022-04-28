@@ -32,7 +32,7 @@ async function getAddr({ lat, long }) {
   }
 
   return (
-    data.suggestions[0].value.split(",")[1].replace(" ул ", "Улица ") +
+    data.suggestions[0].value.split(",")[1].replace(" ул ", "улица ") +
     ` (${data.suggestions[0].value.split(",")[0].split(" ")[1]})`
   );
 }

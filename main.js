@@ -18,6 +18,7 @@ app.post("/", async (req, res) => {
 app.listen(3000);
 
 async function main({ adress, coords }) {
+  if (!adress && !coords) return {};
   if (!adress) {
     if (!coords) return {};
     const [lat, long] = coords.split(",");
