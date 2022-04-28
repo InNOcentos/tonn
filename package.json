@@ -1,0 +1,31 @@
+{
+  "name": "hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.0",
+    "image-recognition": "^1.1.0",
+    "infobox-parser": "^3.6.2",
+    "jsdom": "^19.0.0",
+    "node-fetch": "^3.2.3",
+    "node-geocoder": "^4.0.0",
+    "node-tesseract-ocr": "^2.2.1",
+    "request": "^2.88.2",
+    "wiki-infobox": "^0.4.0",
+    "wiki-infobox-table": "^0.0.1",
+    "wiki-infoboxes": "^1.0.0",
+    "wikijs": "^6.3.3",
+    "wikipedia": "^1.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  }
+}
